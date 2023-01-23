@@ -137,9 +137,9 @@ body{
 }
 
 @media (max-width:500px){
+
     .card{
-        max-width: 300px;
-        
+        width: 330px;
     }
 
 }
