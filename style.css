@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card{ 
+    max-width: 380px;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 24px;
+    border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+}
+
+.star{
+    background-color: #2C353F;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10%;
+    top: 5%;
+}
+
+.text{
+    height: auto;
+    Font-size: 15px;
+}
+
+.how{
+    color: hsl(0, 0%, 100%);
+}
+
+.p-1{
+    color :hsl(217, 12%, 63%);
+    letter-spacing: -3%;
+}
+
+.rate-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.radio{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.chose{
+    background-color: #2C353F;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 100%;
+    color: hsl(216, 12%, 54%);
+}
+
+.submit{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.ilustration{
+    margin: 0 auto;
+}
+
+.selected{
+    margin: 0 auto;
+    background-color: #2C353F;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: hsl(25, 97%, 53%);
+}
+
+.thanks{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.thanks h1{
+    font-weight: 400;
+}
+
+.thanks p{
+    color: hsl(217, 12%, 63%);
+    letter-spacing: -3%;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width:500px){
+    .card{
+        max-width: 300px;
+        
+    }
+
+}
