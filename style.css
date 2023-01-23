@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     height: 100vh;
     width: 100vw;
@@ -73,6 +79,11 @@ body{
     color: hsl(216, 12%, 54%);
 }
 
+.chose:hover{
+    background-color: hsla(25, 67%, 51%, 0.921);
+    color: white;
+}
+
 .submit{
     width: 100%;
     height: auto;
@@ -87,6 +98,11 @@ body{
     outline: none;
     font-size: 15px;
     letter-spacing: 3px;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
 
 .ilustration{
